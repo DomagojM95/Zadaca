@@ -29,18 +29,18 @@ int b1= int.Parse(Console.ReadLine());
 int b2 = int.Parse(Console.ReadLine());
 int b3 = int.Parse(Console.ReadLine());
 
-Console.WriteLine(((b1 > b2) && (b1>b3) ? b1 ) + "broj je najveci") ;
+//Console.WriteLine(((b1 > b2) && (b1>b3) ? b1 ) + "broj je najveci") ;
 
 
-//if ((b1 > b2) && (b1 > b3))
-//{
-//    Console.WriteLine((b1) + " " + "je najveci");
-//}
-//else if ((b2 > b1) && (b2 > b3))
-//{
-//    Console.WriteLine((b2) + " " + "je najveci");
-//}
-//else if ((b3 > b1) && (b3 > b2))
-//{
-//    Console.WriteLine((b3) + " " + "je najveci");
-//}
+if ((b1 > b2) && (b1 > b3))
+{
+    Console.WriteLine((b1) + " " + "je najveci");
+}
+else if ((b2 > b1) && (b2 > b3))
+{
+    Console.WriteLine((b2) + " " + "je najveci");
+}
+else if ((b3 > b1) && (b3 > b2))
+{
+    Console.WriteLine((b3) + " " + "je najveci");
+}
